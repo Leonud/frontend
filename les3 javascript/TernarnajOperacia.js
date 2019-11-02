@@ -1,0 +1,1 @@
+const absValue = (num === 0 || num > 0) ? num : -num

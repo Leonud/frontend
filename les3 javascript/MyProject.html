@@ -1,0 +1,35 @@
+<head>
+</head>
+
+<body>
+    <script>
+        const finalGrade = (exam, projects) => {
+            if (exam >= 90 || projects >= 10) {
+                const n = 100;
+                document.writeln(n);
+                return n;
+            } else if (exam >= 75 & projects >= 5) {
+                const n = 90;
+                document.writeln(n);
+                return n;
+            } else if (exam >= 50 & projects >= 2) {
+                const n = 75;
+                document.writeln(n);
+                return n;
+            } else {
+                const n = 0;
+                document.writeln(n);
+                return n;
+            }
+
+        }
+        finalGrade(100,12);
+        finalGrade(99,0);
+        finalGrade(10,15);
+        finalGrade(85,5);
+        finalGrade(55,3);
+        finalGrade(55,0);
+        finalGrade(20,2);
+        finalGrade(85,4);
+    </script>
+</body>
