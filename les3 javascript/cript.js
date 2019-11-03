@@ -1,4 +1,10 @@
-const symb = 70;
-const pi = 300000000;
-const mul = symb * (pi**2);
-document.write(mul);
+const finalGrade = (let) => {
+    for (let i = 2; i <= let - 1; i++) {
+        if (let % i == 0) {
+            document.write("false");
+            return false;
+        }
+    }
+    document.write("true");
+    return true;
+}
