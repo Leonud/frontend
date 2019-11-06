@@ -1,0 +1,13 @@
+#rectangle {
+    background: white;
+    border-radius: 25px;
+}
+
+#nice {
+    background: #D9D0D0;
+}
+
+input {
+    border: 2px solid black;
+    border-radius: 10px;
+}
