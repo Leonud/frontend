@@ -11,3 +11,8 @@ input {
     border: 2px solid black;
     border-radius: 10px;
 }
+body {
+  text-align: center;
+  padding-top: 20vh;
+  background: #34495e;
+}
