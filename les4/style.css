@@ -1,0 +1,47 @@
+.nice {
+    position: relative;
+    width: 100%;
+    /* for IE 6 */
+    margin-left: 100px;
+}
+
+.good {
+    margin-left: 10px;
+}
+
+#q {
+    position: absolute;
+    top: 100px;
+    left: 10;
+    width: 100%;
+}
+#w {
+    position: absolute;
+    top: 100px;
+    left: 192px;
+    width: 100%;
+}
+#e {
+    position: absolute;
+    top: 100px;
+    left: 375px;
+    width: 100%;
+}
+#r {
+    position: absolute;
+    top: 100px;
+    left: 558px;
+    width: 100%;
+}
+#t {
+    position: absolute;
+    top: 100px;
+    left: 742px;
+    width: 100%;
+}
+#y {
+    position: absolute;
+    top: 100px;
+    left: 924px;
+    width: 100%;
+}
